@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <math.h>
+int main()
+{
+    float a,b,y;
+	printf("mencari persamaan akar kuadrat ?\n");
+	printf("a:"); scanf("%f",&a);
+	printf("b:"); scanf("%f",&b);
+	y = sqrt( (5*pow(a,3)) - pow(a,b-1) + 12 );
+	printf("y= %.6f\n", y);
+	return 0;
+}
